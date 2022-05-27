@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(1)
 imgTarget = cv2.imread('target.jpg')
 myVid = cv2.VideoCapture('osaka-vid.mp4')
 print(myVid.isOpened())
